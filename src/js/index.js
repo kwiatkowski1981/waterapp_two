@@ -20,7 +20,7 @@ const key = new Date().toISOString().slice(0, 10)
 console.log('buttonDodaj');
 console.log('buttonUsun');
 console.log(counterDigit.innerHTML);
-console.log(statystyki.innerHTML);
+// console.log(statystyki.innerHTML);
 
 
 if (!localStorage.getItem(key)) {
